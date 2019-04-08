@@ -1,40 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
-
 body{
     margin:0;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#404c51;
-
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404c51;
 }
 
-label {
-    font-weight:bold;
+label{
+    font-weight: bold;
 }
 
-@media (min-width:1200px) {
+@media (min-width:1200px){
     .container {
-        width:1200px;
+        width: 1170px;
         margin: 0 auto;
     }
 
-    .col-id-header {
+    .col-id-header{
         width: 80px;
     }
-    .col-id {
+    
+    .col-id{
         width: 80px;
-        text-align: right;
-        
+        text-align: center; 
     }
-
-    .col-acoes-header {
+    .col-acoes-header{
         width: 120px;
-        text-align: center;
-        
+    }
+    
+    .col-acoes{
+        width: 120px;
+        text-align: center; 
     }
 
-    .col-acoes {
-        width: 80px;
-        text-align: center;
-        
-    }
 }
